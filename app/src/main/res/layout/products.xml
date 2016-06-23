@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_background"
+    >
+
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:id="@+id/Text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="30dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="test1"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/Text_Cur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="20dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="test2"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/Text_Amt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:paddingBottom="0dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="test3"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
